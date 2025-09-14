@@ -31,3 +31,12 @@
 {"level":"info","message":"User created successfully: shubham@gmail.com","service":"acquistions-api"}
 {"level":"info","message":"User registered successfully: shubham@gmail.com","service":"acquistions-api"}
 {"level":"info","message":"::1 - - [14/Sep/2025:06:08:43 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 119 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquistions-api"}
+{"level":"info","message":"User authenticated successfully: shubham@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"User signed in successfully: shubham@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [14/Sep/2025:10:45:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 118 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquistions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [14/Sep/2025:10:46:13 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquistions-api","userAgent":"PostmanRuntime/7.45.0"}
+{"level":"info","message":"::1 - - [14/Sep/2025:11:13:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.45.0\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [14/Sep/2025:11:13:57 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"HTTPie\"","service":"acquistions-api"}

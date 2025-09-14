@@ -43,7 +43,9 @@ export const signUp = async (req, res, next) => {
     logger.error('Sign up error', error);
 
     if (error.message === 'User with this email already exists') {
-      return res.status(409).json({ error: 'User with this email already exists' });
+      return res
+        .status(409)
+        .json({ error: 'User with this email already exists' });
     }
 
     next(error);
@@ -87,7 +89,10 @@ export const signIn = async (req, res, next) => {
   } catch (error) {
     logger.error('Sign in error', error);
 
-    if (error.message === 'User not found' || error.message === 'Invalid password') {
+    if (
+      error.message === 'User not found' ||
+      error.message === 'Invalid password'
+    ) {
       return res.status(401).json({ error: 'Invalid email or password' });
     }
 

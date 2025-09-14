@@ -72,7 +72,7 @@ export const authenticateUser = async ({ email, password }) => {
     }
 
     const isValidPassword = await comparePassword(password, user.password);
-    
+
     if (!isValidPassword) {
       throw new Error('Invalid password');
     }
